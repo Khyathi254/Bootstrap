@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    background: #fff1e1;
+    background: radial-gradient(circle, #fff1e1 10%, #d2601a 200%);
+    box-shadow: 9px 9px 17px;
+    width: auto;
+    height: 37rem;
+}
+img{
+    width: 120%;
+    height: 37rem;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 300px;
+}
+.lohin h1{
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+}
+.inp{
+    height: 50px;
+    border: none;
+    width: 70%;
+    border-radius: 50px;
+    margin-left: 100px;
+    box-shadow: 2px 2px   rgb(67, 65, 65);
+}
+.btn1{
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    font-weight: 600;
+    background: #1d3c45;
+    box-shadow: 2px 4px #2b4e58;
+    margin-left: 100px;
+}
+.btn1:hover{
+    background: #d2601a;
+
+}
+.fa-square-facebook {
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #1d3c45;
+    margin-left: 100px;
+}
+.fa-square-facebook:hover{
+    color: blue;
+}
+.fa-square-instagram{
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #1d3c45;
+}
+.fa-square-instagram:hover{
+    color: rgb(245, 50, 93);
+}
+.fa-linkedin{
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #1d3c45;
+
+}
+.fa-linkedin:hover{
+ color: rgb(48, 103, 221);
+}
+.fa-square-twitter{
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #1d3c45;
+}
+.fa-square-twitter:hover{
+    color: rgb(65, 65, 255);
+}
